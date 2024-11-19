@@ -41,7 +41,7 @@ export const BarVariant = ({ data }: BarVariantProps) => {
           )}
         />
 
-        <Bar dataKey="income" fill="#3d82f6" className="drop-shadow-sm" />
+        <Bar dataKey="income" fill="#8000FF" className="drop-shadow-sm" />
         <Bar dataKey="expenses" fill="#f43f5e" className="drop-shadow-sm" />
       </BarChart>
     </ResponsiveContainer>

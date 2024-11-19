@@ -16,7 +16,7 @@ import { CountUp } from "./count-up";
 const boxVariant = cva("shrink-0 rounded-md p-3", {
   variants: {
     variant: {
-      default: "bg-blue-500/20",
+      default: "bg-purple-500/20",
       success: "bg-emerald-500/20",
       danger: "bg-rose-500/20",
       warning: "bg-yellow-500/20",
@@ -30,7 +30,7 @@ const boxVariant = cva("shrink-0 rounded-md p-3", {
 const iconVariant = cva("size-6", {
   variants: {
     variant: {
-      default: "fill-blue-500",
+      default: "fill-purple-500",
       success: "fill-emerald-500",
       danger: "fill-rose-500",
       warning: "fill-yellow-500",

@@ -57,7 +57,7 @@ export const AreaVariant = ({ data }: AreaVariantProps) => {
           dataKey="income"
           stackId="income"
           strokeWidth={2}
-          stroke="#3d82f6"
+          stroke="#8000FF"
           fill="url(#income)"
           className="drop-shadow-sm"
         />
